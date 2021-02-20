@@ -11,7 +11,7 @@ package shapes;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import affix.java.basic.exceptions.Shape.ShapeType;
+import shapes.Shape.ShapeType;
 /*FOR TESTING COMMENT THIS CLASS*/
 public class ShapeApp {
 

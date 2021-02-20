@@ -289,8 +289,18 @@ public class AppGUI {
 				lblNewLabel_1.setVisible(false);
 				lblNewLabel_1.setEnabled(false);
 				lblNewLabel.setText("Length");
+				lblNewLabel.setVisible(true);
+				textField_2.setVisible(true);
+				textField_2.setEnabled(true);
+				lblX.setVisible(true);
+				lblY.setVisible(true);
+				textField.setVisible(true);
+				textField_1.setVisible(true);
+				textField.setEnabled(true);
+				textField_1.setEnabled(true);
 				createNewShapeWindow.setTitle("Create new line:");
 				lblNewShapeCoords.setText("Coordinates:");
+				btnCreateShape.setText("Create Line");
 			}
 		});
 		btnNewLine.setBounds(141, 45, 121, 49);
@@ -318,8 +328,15 @@ public class AppGUI {
 				textField_2.setVisible(false);
 				lblNewLabel_1.setVisible(false);
 				lblNewLabel_1.setEnabled(false);
+				lblX.setVisible(true);
+				lblY.setVisible(true);
+				textField.setVisible(true);
+				textField_1.setVisible(true);
+				textField.setEnabled(true);
+				textField_1.setEnabled(true);
 				createNewShapeWindow.setTitle("Create new triangle:");
 				lblNewShapeCoords.setText("Coordinates:");
+				btnCreateShape.setText("Create Triangle");
 			}
 		});
 		btnNewTriangle.setBounds(141, 105, 121, 49);
@@ -345,8 +362,18 @@ public class AppGUI {
 				textField_2.setVisible(false);
 				lblNewLabel_1.setVisible(false);
 				lblNewLabel_1.setEnabled(false);
+				lblNewLabel_1.setEnabled(false);
+				lblX.setVisible(true);
+				lblY.setVisible(true);
+				textField.setVisible(true);
+				textField_1.setVisible(true);
+				textField.setEnabled(true);
+				textField_1.setEnabled(true);
+				lblName.setText("Base");
+				lblName_1.setText("Height");
 				createNewShapeWindow.setTitle("Create new rectangle:");
 				lblNewShapeCoords.setText("Coordinates:");
+				btnCreateShape.setText("Create Rectangle");
 			}
 		});
 		btnNewRectangle.setBounds(10, 105, 121, 49);
@@ -371,10 +398,20 @@ public class AppGUI {
 				textField_4.setEnabled(false);
 				textField_4.setVisible(false);
 				lblNewLabel.setText("Radius");
+				lblNewLabel.setVisible(true);
+				textField_2.setVisible(true);
+				textField_2.setEnabled(true);
+				lblX.setVisible(true);
+				lblY.setVisible(true);
+				textField.setVisible(true);
+				textField_1.setVisible(true);
+				textField.setEnabled(true);
+				textField_1.setEnabled(true);
 				lblNewLabel_1.setVisible(false);
 				lblNewLabel_1.setEnabled(false);
 				createNewShapeWindow.setTitle("Create new circle:");
 				lblNewShapeCoords.setText("Coordinates:");
+				btnCreateShape.setText("Create Circle");
 				
 			}
 		});
@@ -417,8 +454,15 @@ public class AppGUI {
 				lblNewLabel.setVisible(false);
 				lblNewLabel_1.setVisible(false);
 				lblNewLabel_1.setEnabled(false);
+				lblX.setVisible(true);
+				lblY.setVisible(true);
+				textField.setVisible(true);
+				textField_1.setVisible(true);
+				textField.setEnabled(true);
+				textField_1.setEnabled(true);
 				lblNewShapeCoords.setText("New Coordinates");
 				createNewShapeWindow.setTitle("Move a shape:");
+				btnCreateShape.setText("Move shape");
 				
 			}
 		});
@@ -472,7 +516,7 @@ public class AppGUI {
 		panel.add(btnPrintShapes);
 		
 		JLabel lblConsole = new JLabel("Console output:");
-		lblConsole.setBounds(10, 11, 89, 14);
+		lblConsole.setBounds(10, 11, 149, 14);
 		frame.getContentPane().add(lblConsole);
 		
 		
